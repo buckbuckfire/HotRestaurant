@@ -1,29 +1,54 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Document</title>
+</head>
 
-    <title>Hot Restaurant</title>
-  </head>
-  <body>
-        <div class="jumbotron">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </div>
+<body>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 class="display-4">Hot Restaurant</h1>
+            <hr class="my-4">
+            <h1>Make Your Reservation</h1>
+            <a class="btn btn-primary btn-lg" href="view.html" role="button">View Tables</a>
+            <button type="button" class="btn btn-secondary" href="home.html">Home</button>
+        </div>
+
+        <form>
+                <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="name" class="form-control" id="name" aria-describedby="nameHelp">
+                        <small id="nameHelp" class="form-text text-muted">First and Last</small>
+                      </div>
+                <div class="form-group">
+                        <label for="inputPhone">Phone Number</label>
+                        <input type="phone" class="form-control" id="phone" aria-describedby="phoneHelp">
+                        <small id="phoneHelp" class="form-text text-muted">Example (555)555-5555</small>
+                      </div>
+                <div class="form-group">
+                  <label for="inputEmail">Email Address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="inputUniqueID">Unique ID</label>
+                  <input type="id" class="form-control" id="unique-id">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+
+    </div>
+
+</body>
+
+
 
 </html>
