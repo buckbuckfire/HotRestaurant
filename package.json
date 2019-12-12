@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/buckbuckfire/HotRestaurant/issues"
   },
-  "homepage": "https://github.com/buckbuckfire/HotRestaurant#readme"
+  "homepage": "https://github.com/buckbuckfire/HotRestaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
