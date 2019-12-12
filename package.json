@@ -1,0 +1,21 @@
+{
+  "name": "HotRestaurant",
+  "version": "1.0.0",
+  "description": "Hot Restaurant",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buckbuckfire/HotRestaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buckbuckfire/HotRestaurant/issues"
+  },
+  "homepage": "https://github.com/buckbuckfire/HotRestaurant#readme"
+}
